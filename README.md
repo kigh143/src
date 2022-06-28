@@ -54,7 +54,7 @@ Try a break your project into features so that the code is more decoupled which 
 
 ### HOCs
 
-HOC stands for Higher-Order Component and it's a design pattern that helps developers write DRY code in a react and react native basically, in this folder add your HOC files.
+HOC stands for Higher-Order Component and it's a design pattern that helps developers write DRY code in a react and react native. use this folder to store all your HOC component files.
 
 ### Hooks
 
@@ -68,20 +68,21 @@ This folder holds the app routes in your project, I would advise you to use [rea
 
 `/slices` is where you keep all your feature-related slices, every feature must have only one slice file that is responsible for managing its global state.
 
-`hook.ts` This file helps in making the state object more accessible ad your get content from the global state object, it redefines the `useSelector` and `useDispatch` imported from react-redux and it assigns new aliases of `useAppSelector` and `useAppDispatch`.
+`hook.ts` it redefines the `useSelector` and `useDispatch` imported from react-redux and it assigns new aliases of `useAppSelector` and `useAppDispatch`.
 
 `store.ts` this defines the structure of the redux store.
 
 ### Services
 
-This uses Axios library to help in making HTTP requests to the server. 
+This uses  the Axios library to help in making HTTP requests to the server. 
 
-`auth`  All the auth feature endpoints will be defined here
+`auth`  All the auth feature endpoints will be defined here, every feature will have one file in the services folder.
+
 `axios_instance.ts` Creates and export and instance of Axios with intercepts
 
 ### Utils
 
-This folder holds all helper functions, Ideally you can also use it to make units test for some of the business logic in your application.
+This folder holds all helper functions. Ideally you can also use it to make units test for some of the business logic in your application.
 
 ##  How to use.
 
