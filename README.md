@@ -6,9 +6,9 @@ Are you a new or an existing react native developer and you have always found is
 
 If you need help on how to use this folder hit me up and I will be happy to help you get going.
 
-[Website](https://ghkatende.com)
-[Github](https://github.com/kigh143)
-[LinkedIn](https://www.linkedin.com/in/hakim-katende-710375148)
+> [Website](https://ghkatende.com)
+> [Github](https://github.com/kigh143)
+> [LinkedIn](https://www.linkedin.com/in/hakim-katende-710375148)
 
 
 ##  Libraries.
