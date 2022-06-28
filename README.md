@@ -32,42 +32,43 @@ If you need help on how to use this folder hit me up and I will be happy to help
 
 ### Assets
 
-`assets/fonts`  => Store all your project fonts in this folder. you can get free fonts from google fonts.
+`assets/fonts` Store all your project fonts in this folder. you can get free fonts from google fonts.
 
-`assets/images` => Store all the image files and use the index.ts file to export all the images into an object.
+`assets/images` Store all the image files and use the index.ts file to export all the images into an object.
 
-`assets/theme` => Store all the theme-related files, constants, colors, etc.
+`assets/theme`  Store all the theme-related files, constants, colors, etc.
 
-`assets/langs` => Store all the langs-related files here to make your app internationalized and ready.
+`assets/langs` Store all the langs-related files here to make your app internationalized and ready.
 
 ### Components
 
-`/common/` => This stores all the components that are common to all the project features screens.
+`/common` This stores all the components that are common to all the project features screens.
 
-`/features/` => This represents a feature folder that stores all the components only related to auth features
+`/features` This represents a feature folder that stores all the components only related to auth features
 
 ### Features
 
 Try a break your project into features so that the code is more decoupled which improves maintenance.
 
-`/feature1/` Add all your features-related files into one folder eg auth [login.ts, register.ts, verify.ts, etc]
+`/feature1` Add all your features-related files into one folder eg auth [login.ts, register.ts, verify.ts, etc]
 
 ### HOCs
 
 HOC stands for Higher-Order Component and it's a design pattern that helps developers write DRY code in a react and react native basically, in this folder add your HOC files.
 
 ### Hooks
-`hooks/` Store and hook logic in the folder.
+
+`/hooks` Store and hook logic in the folder.
 
 ### Navigation
 
-The hold all the page/screen routes in your project, I personally advise you to use [react-navigation](https://reactnavigation.org/) v5 > to implement navigation in your project.
+This folder holds the app routes in your project, I would advise you to use [react-navigation](https://reactnavigation.org/) v5 or greater to implement navigation in your project.
 
 ### Redux
 
-`/slices/` is where you keep all your feature-related slices, every feature must have only one slice file that is responsible for managing its global state.
+`/slices` is where you keep all your feature-related slices, every feature must have only one slice file that is responsible for managing its global state.
 
-`hook.ts` This file helps in making the state object more accessible ad your get content from the global state object, it redefines the useSelector and useDispatch imported from react-redux and it assigns new aliases of useAppSelector and useAppDispatch.
+`hook.ts` This file helps in making the state object more accessible ad your get content from the global state object, it redefines the `useSelector` and `useDispatch` imported from react-redux and it assigns new aliases of `useAppSelector` and `useAppDispatch`.
 
 `store.ts` this defines the structure of the redux store.
 
@@ -80,7 +81,7 @@ This uses Axios library to help in making HTTP requests to the server.
 
 ### Utils
 
-This folder holders all helper functions, ideally you can also use it to make units test for some of the business logic in your application.
+This folder holds all helper functions, Ideally you can also use it to make units test for some of the business logic in your application.
 
 ##  How to use.
 
