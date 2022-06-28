@@ -1,61 +1,92 @@
+Create a scalable React-Native project structure
 
-Creating a scalable reactjs & RN  project
+This repo contains a perfect src folder format for your react-native projects.
 
-The react js / react native source folder
-The perfect folder format for your react / react native projects.
+Are you a new or an existing react native developer and you have always found issues organizing your project in an easier-to-understand structure? I have got your back, Here I have created a src folder to use in your next react native projects. This is  based on the top-rated libraries used to create a scalable R/RN project. Use this src folder to create future-proof project.
 
-Are you new or and existing  to react native or react js developer and you have always found issues organizing your project in a more easy to understand way, Here is the i have created a src folder to use in your projects. its based on the top rated technologies in all the capacities of creating a scalable project. create future proof projects.
+If you need help on how to use this folder hit me up and I will be happy to help you get going.
 
-if you need help on how to use this folder hit me up and i will be help to help you get going.
+https://ghkatende.com
+https://github.com/kigh143
+https://www.linkedin.com/in/hakim-katende-710375148
 
-Technologies used
+
+Libraries.
 
 Typescript
+
 Redux toolkit
-axios
+
+Axios
+
 async-storage
+
 redux-persist
+
 react-redux
 
-The folder structure 
 
-assets
-/fonts/  =>  Store all your projects fonts in this folders and 
-/images/ =>  Store all the files and use  the index files to export all the images into an object.
-/theme/ =>   Store all the theme related stuff, constants, colors, etc
-/langs/ store all the langs related file here to make you app internationalized ready.
+The folder structure
 
-components
-/common/ => this store all the components that are common to all the project features
-/features/ => this represents a feature folder that store sll the components only related to auth features 
+Assets
+
+assets/fonts  => Store all your project fonts in this folder. you can get free fonts from google fonts.
+
+assets/images => Store all the image files and use the index.ts file to export all the images into an object.
+
+assets/theme => Store all the theme-related files, constants, colors, etc.
+
+assets/langs => Store all the langs-related files here to make your app internationalized and ready.
+
+Components
+
+/common/ => This stores all the components that are common to all the project features screens.
+
+/features/ => This represents a feature folder that stores all the components only related to auth features
 
 Features
-break your projects into features so that the code is more decoupled which improves maintenance.
 
-/feature1/ add all your features related files into one folders eg auth [login.ts, register.ts, verify.ts, etc] 
+Try a break your project into features so that the code is more decoupled which improves maintenance.
+
+/feature1/ add all your features-related files into one folder eg auth [login.ts, register.ts, verify.ts, etc]
 
 HOCs
 
-Hocs stands for higher order components and its a design pattern thats helps developer write DRY code.
-basically in hia older add your Hocs 
+HOC stands for Higher-Order Component and it's a design pattern that helps developers write DRY code in a react and react native basically, in this folder add your HOC files.
 
-hooks
-Store and hooks logic in the folder.
+Hooks
+hooks/ => Store and hook logic in the folder.
 
-navigation 
-the hold all the page / screen routes in your project, i personally advice you to use react navigation v5 > to implement navigation in your project.
+Navigation
 
-redux
-/slices/ is where you keep all your features related slices, every features must have only one slice responsible for its state.
-hook.ts / this file helps in making the state object more accessible ad your get content from the global state object, it redefines the useSelector and useDispatch imported from react-redux and it assign new aliases of useAppSelector and useAppDispatch. 
-store.ts /  this defines the structure of the redux store. 
+The hold all the page/screen routes in your project, I personally advise you to use react-navigation v5 > to implement navigation in your project.
 
-services
+Redux
 
-this user axios to help in making http requests
-auth/ all the auth feature endpoints will be defined here 
-axios_instance.ts / creates and export amd instance of axios with intercepts 
+/slices/ is where you keep all your feature-related slices, every feature must have only one slice file that is responsible for managing its global state.
+
+hook.ts / This file helps in making the state object more accessible ad your get content from the global state object, it redefines the useSelector and useDispatch imported from react-redux and it assigns new aliases of useAppSelector and useAppDispatch.
+
+store.ts / this defines the structure of the redux store.
+
+Services
+
+This uses Axios library to help in making HTTP requests to the server. 
+
+auth / all the auth feature endpoints will be defined here
+axios_instance.ts / creates and export and instance of Axios with intercepts
+
+Utils
+
+This folder holders all helper functions, ideally you can also use it to make units test for some of the business logic in your application.
+
+how to use.
+
+Create a new react native project using : npx react-native init AwesomeTSProject --template react-native-template-typescript
+
+Clone the repository : git clone https://github.com/kigh143/src.git
+
+Copy the the src into the react native project. 
 
 
-utils
-this folder holders all helpers functions , ideally you can also use ot to make units test for some of  the business logic. 
+
