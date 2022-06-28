@@ -13,9 +13,9 @@ If you need help on how to use this folder hit me up and I will be happy to help
 
 ##  Libraries.
 
->   [Typescript] (https://www.typescriptlang.org/) 
+>   [Typescript](https://www.typescriptlang.org/) 
 
->   [Redux toolkit] (https://redux-toolkit.js.org/)
+>   [Redux toolkit](https://redux-toolkit.js.org/)
 
 >   [Axios](https://www.npmjs.com/package/axios)
 
