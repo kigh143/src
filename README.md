@@ -91,3 +91,5 @@ This folder holds all helper functions. Ideally you can also use it to make unit
 > Clone the repository : `git clone https://github.com/kigh143/src.git`
 
 > Copy the the src into the react native project. 
+
+> Run this command to install the dependences : yarn add react-redux redux-persist axios @reduxjs/toolkit @react-navigation/native@^5.x react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view @react-native-async-storage/async-storage
